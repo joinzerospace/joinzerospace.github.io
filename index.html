@@ -7,7 +7,7 @@
     <title>Zero Space - Explore. Conquer. Survive.</title>
 
     <!-- Favicon (optional but recommended) -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,7 +113,7 @@
         <div class="absolute inset-0 z-0 opacity-30 hero-bg-animation"></div>
 
         <div class="z-10 relative">
-            <img src="assets/images/logo.png" alt="Zero Space Logo"
+            <img src="assets/icons/logo.png" alt="Zero Space Logo"
                 class="w-48 md:w-64 mx-auto mb-4 animate-pulse-glow">
             <h1 class="text-5xl md:text-7xl lg:text-8xl font-orbitron font-bold mb-4 title-glow">
                 ZERO<span class="text-neon-blue">SPACE</span>
@@ -156,14 +156,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="animate-on-scroll">
-                <!-- Placeholder for illustration or animated graphic -->
-                <div
-                    class="bg-dark-blue p-8 rounded-lg shadow-lg border border-neon-blue/30 aspect-video flex items-center justify-center">
-                    <p class="text-gray-500 text-center"> [ Placeholder for Animated Graphic / Illustration ] <br> <i
-                            class="fas fa-space-shuttle fa-3x mt-4 text-neon-blue/50"></i> </p>
-                </div>
-            </div>
+        <div class="animate-on-scroll flex justify-center">
+            <video src="assets/images/bot.webm" autoplay loop muted playsinline
+                class="w-[360px] max-w-full h-auto object-contain">
+            </video>
+        </div>
+
+
         </div>
     </section>
 
@@ -185,8 +184,13 @@
 
             <h3 class="text-2xl font-orbitron text-center mb-8">In-Game Screenshots</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 gallery">
+                <div class="flex items-center justify-center">
+                </div>
+                <div class="bg-dark-blue p-4 rounded-md shadow-md border border-neon-blue/30 w-[480px] max-w-full aspect-video flex items-center justify-center">
+                    <p class="text-center col-span-full text-lg text-white opacity-70">Coming Soon</p>
+                </div>
                 <!-- Replace with actual screenshots -->
-                <img src="assets/images/screenshot-1.jpg" alt="Screenshot 1"
+                <!-- <img src="assets/images/screenshot-1.jpg" alt="Screenshot 1"
                     class="gallery-item w-full h-auto rounded-md shadow-md hover:scale-105 hover:shadow-glow-blue transition duration-300 cursor-pointer animate-on-scroll">
                 <img src="assets/images/screenshot-2.jpg" alt="Screenshot 2"
                     class="gallery-item w-full h-auto rounded-md shadow-md hover:scale-105 hover:shadow-glow-blue transition duration-300 cursor-pointer animate-on-scroll">
@@ -197,7 +201,7 @@
                 <img src="assets/images/screenshot-2.jpg" alt="Screenshot 5"
                     class="gallery-item w-full h-auto rounded-md shadow-md hover:scale-105 hover:shadow-glow-blue transition duration-300 cursor-pointer animate-on-scroll">
                 <img src="assets/images/screenshot-3.jpg" alt="Screenshot 6"
-                    class="gallery-item w-full h-auto rounded-md shadow-md hover:scale-105 hover:shadow-glow-blue transition duration-300 cursor-pointer animate-on-scroll">
+                    class="gallery-item w-full h-auto rounded-md shadow-md hover:scale-105 hover:shadow-glow-blue transition duration-300 cursor-pointer animate-on-scroll"> -->
             </div>
         </div>
     </section>
